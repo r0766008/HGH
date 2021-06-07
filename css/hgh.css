@@ -1,0 +1,109 @@
+/* Custom Stylesheet */
+
+
+/* Schrijf hier je aanpassingen die specifiek voor HGH zijn
+en die bovenop materialize komen */
+nav ul a,
+nav .brand-logo,
+#dropdown a,
+#dropdown-language a{
+  color: #444;
+}
+
+nav li a:hover,
+#dropdown a:hover,
+#dropdown-language a:hover{
+    color: orange;
+    background-color: #f5f5f5 !important;
+}
+
+.elegant-color {
+    color: white;
+    background-color: #545454;
+}
+
+.active-link {
+    color: orange;
+    background-color: #f5f5f5 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .smargin {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-right-col {
+    display: flex;
+    flex-direction: column; /* Stack on top */
+  }
+  .first-col {
+    order: 2; /* Go down, bring First box up */
+  }
+}
+
+@media (max-width: 992px) {
+  .flex-right-col-m {
+    display: flex;
+    flex-direction: column; /* Stack on top */
+  }
+  .first-col-m {
+    order: 2; /* Go down, bring First box up */
+  }
+}
+
+.sidenav-overlay {
+  z-index: 4;
+}
+
+.sidenav {
+  z-index: 5;
+}
+
+.youtube-iframe {
+    border: 0px;
+}
+
+#test:hover {
+    cursor: default;
+}
+#instagram-embed-0 {
+    width: 100% !important;
+    margin: auto;
+}
+
+#facebook-container {
+  position: relative;
+  overflow: hidden;
+  margin-right: auto;
+}
+
+#facebook-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255,255,255,1);
+  z-index: 3;
+}
+
+#facebook-loading .preloader-wrapper {
+  position: relative;
+  top: 40%;
+}
+
+#facebook-plugin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card a:link {
+  text-decoration: underline;
+}
